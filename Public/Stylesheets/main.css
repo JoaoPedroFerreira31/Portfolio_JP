@@ -9,8 +9,13 @@
     font-weight: 400;
 }
 
-.navbar-expand-lg .navbar-collapse {
-    display: flex;
-    justify-content: center;
+#botao-projetos{
+    background-color: #172A3C;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
 }
 
