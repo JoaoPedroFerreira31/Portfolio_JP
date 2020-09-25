@@ -14,8 +14,18 @@ app.get("/", function(req, res){
 });
 
 //Home 
-app.get("/home", function(req, res){ 
+app.get("/pagina_inicial", function(req, res){ 
     res.render("home");
+});
+
+//Processos
+app.get("/processos", function(req, res){
+    res.render("processos");
+});
+
+//Contactos
+app.get("/contactos", function(req, res){
+    res.render("contactos");
 });
 
 //Server Started 
