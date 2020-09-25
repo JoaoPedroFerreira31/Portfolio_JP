@@ -10,7 +10,7 @@ app.use(express.static(__dirname + "/Public"));
 
 //Root Route
 app.get("/", function(req, res){
-    res.redirect("home");
+    res.redirect("/pagina_inicial");
 });
 
 //Home 

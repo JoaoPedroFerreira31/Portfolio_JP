@@ -3,3 +3,14 @@
     font-weight: 600;
     color: white;
 }
+
+.nav-item {
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
