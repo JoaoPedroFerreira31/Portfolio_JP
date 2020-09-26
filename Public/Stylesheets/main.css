@@ -9,8 +9,15 @@
     font-weight: 400;
 }
 
-#botao-projetos{
+.jumbotron {
+    background-image: url("/icons/codigo_verde1.png");
+    background-size: cover;
+}
+
+#header-projetos{
     background-color: #172A3C;
+    width: 500px;
+    padding: 100px;
 }
 
 h2 {
@@ -19,3 +26,8 @@ h2 {
     color: white;
 }
 
+p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+}
