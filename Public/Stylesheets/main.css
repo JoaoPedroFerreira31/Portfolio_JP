@@ -9,6 +9,8 @@
     font-weight: 400;
 }
 
+/* HEADER */
+
 .jumbotron {
     background-image: url("/icons/codigo_verde1.png");
     background-size: cover;
@@ -16,18 +18,70 @@
 
 #header-projetos{
     background-color: #172A3C;
-    width: 500px;
+    width: 350px;
     padding: 100px;
+    border-radius: 40px;
+    margin-left: 60px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
 }
 
-h2 {
+.texto-header-projetos {
     font-family: "Poppins";
     font-weight: 600;
     color: white;
+    text-align: center;
+    width: 300px;
+    margin-left: -73px;
+    font-size: 28px;
 }
 
-p {
+#botao-projetos {
+    background-color: #76C16C;
+    color: white;
     font-family: "Poppins";
     font-weight: 400;
     font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: -25px;
+}
+
+/* ABOUT */
+
+#sobre {
+    margin-top: 80px;
+}
+
+/* STACK */
+
+#stack {
+    margin-top: 65px;
+}
+
+.imagem-stack {
+    width: 80px;
+}
+/* TEXT */
+
+h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #172A3C;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h5 {
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-left: 14px;
+    margin-top: 8px;
 }
