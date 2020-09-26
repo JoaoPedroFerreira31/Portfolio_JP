@@ -60,17 +60,85 @@
     margin-top: 65px;
 }
 
+#texto-css {
+    margin-left: 15px;
+}
+
+#javascript-texto {
+    margin-left: -18;
+}
+
+#texto-bootstrap {
+    margin-left: -10;
+}
+
+#nodejs-logo {
+    width: 126px;
+}
+
 .imagem-stack {
     width: 80px;
 }
+
+.basic-logo {
+    width: 73px;
+}
+
+/* SERVIÇOS */
+
+.background-azul {
+ background-color: #172A3C;
+ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.background-verde {
+    background-color: #76C16C;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+   }
+
+.titulo-servico {
+    font-family: "Poppins";
+    font-weight: 400;
+    color: white;
+}
+
+.icon-servico-verde {
+    color: #76C16C;
+    width: 60px;
+}
+
+.icon-servico-azul {
+    color: #172A3C;
+}
+
+.texto-servico {
+    font-family: "Poppins";
+    font-weight: 200;
+    color: white;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #76C16C;
+    height: 110px;
+}
+
+
 /* TEXT */
 
 h1 {
     font-family: "Poppins";
     font-weight: 600;
     color: #172A3C;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
     margin-top: 30px;
+}
+
+h5 {
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-top: 8px;
 }
 
 p{
@@ -79,9 +147,8 @@ p{
     font-size: 18px;
 }
 
-h5 {
-    font-family: "Poppins";
-    font-weight: 600;
-    margin-left: 14px;
-    margin-top: 8px;
+hr {
+ border: 1px solid white;
+ width: 40px;
 }
+
