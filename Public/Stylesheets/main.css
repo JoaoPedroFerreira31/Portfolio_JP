@@ -89,17 +89,23 @@
 .background-azul {
  background-color: #172A3C;
  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+ max-width: 256px;
+ max-height: 304px;
  
 }
 
 .background-verde {
     background-color: #76C16C;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    max-width: 256px;
+    max-height: 304px;
+
    }
 
 .titulo-servico {
     font-family: "Poppins";
     font-weight: 400;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -118,6 +124,14 @@
     color: white;
 }
 
+/* Processo Criativo */
+
+#texto-processo {
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 32px;
+
+}
 
 /* FOOTER */
 
