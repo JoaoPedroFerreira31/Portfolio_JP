@@ -18,9 +18,9 @@ app.get("/pagina_inicial", function(req, res){
     res.render("home");
 });
 
-//Processos
-app.get("/processos", function(req, res){
-    res.render("processos");
+//Projetos
+app.get("/projetos", function(req, res){
+    res.render("projetos");
 });
 
 //Contactos

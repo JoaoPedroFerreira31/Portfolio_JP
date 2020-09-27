@@ -133,6 +133,24 @@
 
 }
 
+
+/* PAGINA PROJETOS */
+
+#texto-projeto {
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 26px;
+}
+
+.texto-projetos {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 34px;
+    color: white;
+
+}
+
+
 /* FOOTER */
 
 #footer {
