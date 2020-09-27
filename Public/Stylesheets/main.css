@@ -89,11 +89,12 @@
 .background-azul {
  background-color: #172A3C;
  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+ 
 }
 
 .background-verde {
     background-color: #76C16C;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
    }
 
 .titulo-servico {
@@ -103,7 +104,6 @@
 }
 
 .icon-servico-verde {
-    color: #76C16C;
     width: 60px;
 }
 
@@ -114,8 +114,10 @@
 .texto-servico {
     font-family: "Poppins";
     font-weight: 200;
+    font-size: 16px;
     color: white;
 }
+
 
 /* FOOTER */
 
