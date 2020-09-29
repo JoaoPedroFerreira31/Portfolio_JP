@@ -133,6 +133,17 @@
 
 }
 
+.imagens-processo {
+    background-color: #F9F8F8;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+}
+
+.titulo-processo {
+    color: #172A3C;
+    font-family: "Poppins";
+    font-weight: 200;
+}
+
 
 /* PAGINA PROJETOS */
 
@@ -146,12 +157,33 @@
 
 #texto-projeto {
     font-family: "Poppins";
-    font-weight: 200;
+    font-weight: 300;
     font-size: 26px;
 }
 
 .imagens-projetos {
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+    min-width: 240px;
+    max-height: 120px;
+}
+
+.legenda-branco {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-weight: 300;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.legenda-preto {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-weight: 300;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 
