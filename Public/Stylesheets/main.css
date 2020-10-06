@@ -16,7 +16,7 @@
     background-size: cover;
 }
 
-#header-projetos{
+.header-projetos{
     background-color: #172A3C;
     width: 350px;
     padding: 100px;
@@ -52,36 +52,6 @@
 
 #sobre {
     margin-top: 80px;
-}
-
-/* STACK */
-
-#stack {
-    margin-top: 65px;
-}
-
-#texto-css {
-    margin-left: 15px;
-}
-
-#javascript-texto {
-    margin-left: -18;
-}
-
-#texto-bootstrap {
-    margin-left: -10;
-}
-
-#nodejs-logo {
-    width: 126px;
-}
-
-.imagem-stack {
-    width: 80px;
-}
-
-.basic-logo {
-    width: 73px;
 }
 
 /* SERVIÇOS */
