@@ -8,6 +8,36 @@
             </div>   
 	</header>
 </section>
-    
+
+<!-- Contactos -->
+<div class="container">
+    <div class="row">
+        
+        <div class="col-lg-6 col-md-6 col-sm-6">
+
+        </div>
+        
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <form action="/contactos" method="POST">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder= "Name" name="<% data[from] %>">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder= "Image url" name="<% data[to] %>">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="number" placeholder= "Price" name="price" min="0.01" step="0.01">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder= "Description" name="description">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-lg btn-block">Submit!</button>	
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>    
 
 <%- include("partials/footer") %>

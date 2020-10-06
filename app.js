@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express();
+var ejs = require("ejs");
 
 app.set("view engine", "ejs");  
 app.use(express.static(__dirname + "/Public"));
@@ -25,8 +26,14 @@ app.get("/projetos", function(req, res){
 
 //Contactos
 app.get("/contactos", function(req, res){
-    res.render("contactos");
+    res.render("contactos", {data: data});
 });
+
+//===============
+//     EMAIL
+//===============
+
+
 
 //Server Started 
 app.listen(process.env.PORT, process.env.IP, function(){ 
