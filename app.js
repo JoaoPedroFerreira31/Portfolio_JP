@@ -1,9 +1,10 @@
 var express = require("express");
 var app = express();
-var ejs = require("ejs");
+var bodyParser = require("body-parser");
 
 app.set("view engine", "ejs");  
 app.use(express.static(__dirname + "/Public"));
+app.use(bodyParser.urlencoded({extended:true}));
 
 // ==============
 //     ROUTES
@@ -26,17 +27,12 @@ app.get("/projetos", function(req, res){
 
 //Contactos
 app.get("/contactos", function(req, res){
-    res.render("contactos", {data: data});
+    res.render("contactos");
 });
-
-//===============
-//     EMAIL
-//===============
-
-
 
 //Server Started 
 app.listen(process.env.PORT, process.env.IP, function(){ 
     console.log("Server has started");
 });
 console.log(process.env.PORT);
+
