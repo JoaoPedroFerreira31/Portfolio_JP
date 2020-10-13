@@ -106,6 +106,7 @@
 .imagens-processo {
     background-color: #F9F8F8;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
 }
 
 .titulo-processo {
