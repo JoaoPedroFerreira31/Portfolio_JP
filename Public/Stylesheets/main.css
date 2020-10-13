@@ -1,3 +1,11 @@
+#botao-nav {
+    background-color: #172A3C;
+    border-radius: 10px;
+    border:#172A3C;
+    font-size: 15px;
+    margin-top: 3px; 
+}
+
 .navbar-brand {
     font-family: "Poppins";
     font-weight: 600;
@@ -169,6 +177,14 @@
 #footer {
     background-color: #76C16C;
     height: 110px;
+}
+
+#texto-footer {
+    padding-top: 45px;
+    padding-left: 30px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
 }
 
 
