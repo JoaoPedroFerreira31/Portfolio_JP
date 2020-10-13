@@ -1,10 +1,8 @@
 var express = require("express");
 var app = express();
-var bodyParser = require("body-parser");
 
 app.set("view engine", "ejs");  
 app.use(express.static(__dirname + "/Public"));
-app.use(bodyParser.urlencoded({extended:true}));
 
 // ==============
 //     ROUTES
@@ -23,11 +21,6 @@ app.get("/pagina_inicial", function(req, res){
 //Projetos
 app.get("/projetos", function(req, res){
     res.render("projetos");
-});
-
-//Contactos
-app.get("/contactos", function(req, res){
-    res.render("contactos");
 });
 
 //Server Started 
