@@ -177,21 +177,28 @@
 
 #footer {
     background-color: #76C16C;
-    height: 110px;
 }
 
 #texto-footer {
-    padding-top: 45px;
-    padding-left: 30px;
+    padding-top: 40px;
     font-family: "Poppins";
     font-weight: 500;
     font-size: 16px;
 }
 
-#github-icon {
-   
+.fa-linkedin {
+    background-color: #76C16C;
+    border: none !important;
+}
+.fa-github {
+    background-color: #76C16C;
+    border: none !important;
 }
 
+.fa-arrow-alt-circle-up {
+    background-color: #76C16C;
+    border: none !important;
+}
 /* TEXT */
 
 h1 {
@@ -219,3 +226,25 @@ hr {
  width: 40px;
 }
 
+li {
+    list-style-type: none;
+}
+
+a:link {
+    color: black;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: black;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #000000;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: black;
+ }
